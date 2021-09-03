@@ -1,0 +1,56 @@
+/* 边距初始化 */
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,dl,dd,dt,input,textarea,select,th,td{
+    margin: 0px;
+    padding: 0px;
+}
+/* 列表项目符号初始化 */
+li{
+    list-style: none;
+}
+/* 文本样式初始化 */
+em,i{
+    font-style: normal;
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+    font-weight: normal;
+    font-size: 1em;
+}
+/* 链接样式初始化 */
+a{
+    text-decoration: none;
+    color: inherit;
+}
+/* 图片初始化 */
+img{
+    border: none;
+    vertical-align: top;
+}
+/* 表格样式初始化 */
+table{
+    border-collapse: collapse;
+}
+/* 表单样式初始化 */
+form{
+    font-size: 0px;
+}
+form span,input,textarea,select,label{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 0px;
+    background: none;
+    outline: none;
+    resize: none;
+}
+/* BFC */
+.clear:after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.clear {
+    zoom:1;
+}
